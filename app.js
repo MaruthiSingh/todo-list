@@ -8,7 +8,7 @@ const app = express()
 const items = ["By Food", "Cook Food", "Eat Food"]
 const workItems   = [];
 
-app.set('view engine', 'ejs')
+app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static("public"))
